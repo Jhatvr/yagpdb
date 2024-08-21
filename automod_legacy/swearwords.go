@@ -2,9 +2,9 @@ package automod_legacy
 
 // These words are listed in in alphabethical order.
 var BuiltinSwearWords = map[string]bool{
-	"anal":        true,
-	"anus":        true,
-	"arse":        true,
+	"anal":        false,
+	"anus":        false,
+	"arse":        false,
 	"ass":         true,
 	"b1tch":       true,
 	"ballsack":    true,
@@ -47,7 +47,7 @@ var BuiltinSwearWords = map[string]bool{
 	"nigga":       true,
 	"penis":       true,
 	"piss":        true,
-	"poop":        true,
+	"poop":        false,
 	"pube":        true,
 	"pussy":       true,
 	"scrotum":     true,
@@ -61,7 +61,7 @@ var BuiltinSwearWords = map[string]bool{
 	"tranny":      true,
 	"trannies":    true,
 	"tosser":      true,
-	"turd":        true,
+	"turd":        false,
 	"twat":        true,
 	"vagina":      true,
 	"wank":        true,
